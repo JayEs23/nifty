@@ -10805,6 +10805,10 @@ textarea.form-control-lg {
   z-index: 3 !important;
 }
 
+.img-height{
+  height: 300px !important;
+}
+
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;
