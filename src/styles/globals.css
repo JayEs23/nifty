@@ -10809,6 +10809,15 @@ textarea.form-control-lg {
   height: 300px !important;
 }
 
+.casper-logo{
+  height: 30px !important;
+  display: flex;
+  padding: 4px;
+}
+
+.logo-nav{
+  display: flex !important;
+}
 @media (min-width: 576px) {
   .float-sm-start {
     float: left !important;

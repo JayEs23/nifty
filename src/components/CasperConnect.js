@@ -45,9 +45,6 @@ function CasperConnect() {
       return Signer.sendConnectionRequest();
     }catch (error) {
       if (error.message === "Content script not found - make sure you have the Signer installed and refresh the page before trying again.") {
-        const installUrl = "https://www.casperwallet.io/";
-        window.open(installUrl, "_blank");
-        // You can also display a message to the user indicating that they need to install the wallet
       } else {
         console.error("Failed to connect to the signer:", error.message);
       }

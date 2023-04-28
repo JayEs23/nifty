@@ -29,9 +29,10 @@ const Header = () => {
         <header className="navbar-dark header-sticky">
             <nav className="navbar navbar-expand-xl">
                 <div className="container">
-                    <Link href="/" className="navbar-brand">
+                    <Link href="/" className="navbar-brand logo-nav">
                         <img className="light-mode-item navbar-brand-item" src="/static/images/Niftylogo2.png" alt="logo" />
                         <img className="dark-mode-item navbar-brand-item" src="/static/images/NiftyRow-logo-dark.png" alt="logo" />
+                        <img className="casper-logo" src="/static/images/casperlogo.png" alt="logo" />
                     </Link>
 
                     <button className="navbar-toggler ms-auto mx-3 p-0 p-sm-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
